@@ -1,0 +1,23 @@
+body {
+  background-color: rgba(239, 148, 106, 0.667);
+}
+
+.navLinks-custom {
+  /* display: flex; */
+  justify-content: space-between;
+  background-color: rgb(180, 24, 151);
+  color: white;
+}
+
+.navLinks-custom a {
+  color: white;
+}
+
+p {
+  color: rgb(180, 24, 151);
+  font-size: 2rem;
+}
+
+img {
+  /* height: 34rem; */
+}
