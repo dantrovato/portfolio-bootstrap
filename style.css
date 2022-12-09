@@ -33,6 +33,11 @@ section {
   margin-top: 16rem;
 }
 
+#hero .row {
+  display: flex;
+  justify-content: center;
+}
+
 .mask {
   height: 700px;
 }
@@ -42,8 +47,23 @@ section {
   padding: 2rem;
 }
 
+.card {
+  margin-top: 2rem;
+  height: 400px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 a {
   color: var(--text-col);
+}
+
+a:hover {
+  color: red;
 }
 
 #projects p {
