@@ -1,23 +1,51 @@
-body {
-  background-color: rgba(239, 148, 106, 0.667);
+:root {
+  --nav-bg-col: rgb(75, 75, 120);
+  --text-col: white;
 }
 
-.navLinks-custom {
+body {
+  background-color: rgba(125, 116, 111, 0.667);
+}
+
+.navLinks-custom,
+section {
   /* display: flex; */
   justify-content: space-between;
-  background-color: rgb(180, 24, 151);
-  color: white;
+  background-color: var(--nav-bg-col);
+  color: var(--text-col);
+  border-radius: 15px;
+  margin: 2rem 0;
+  min-height: 8rem;
 }
 
 .navLinks-custom a {
-  color: white;
+  color: var(--text-col);
 }
 
-p {
-  color: rgb(180, 24, 151);
-  font-size: 2rem;
+.pic {
+  background-image: url(images/dan.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
 }
 
-img {
-  /* height: 34rem; */
+#hero h1 {
+  margin-top: 16rem;
+}
+
+.mask {
+  height: 700px;
+}
+
+section {
+  margin: 2rem;
+  padding: 2rem;
+}
+
+a {
+  color: var(--text-col);
+}
+
+#projects p {
+  color: var(--nav-bg-col);
 }
