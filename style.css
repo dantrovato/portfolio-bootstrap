@@ -59,7 +59,7 @@ section {
 }
 
 a {
-  color: var(--text-col);
+  color: red;
 }
 
 a:hover {
@@ -68,4 +68,9 @@ a:hover {
 
 #projects p {
   color: var(--nav-bg-col);
+}
+
+#projects div {
+  display: flex;
+  justify-content: space-around;
 }
